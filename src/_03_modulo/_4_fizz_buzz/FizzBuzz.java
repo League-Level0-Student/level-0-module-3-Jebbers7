@@ -21,6 +21,32 @@ package _03_modulo._4_fizz_buzz;
 **/
 
 public class FizzBuzz {
+public static void main(String[] args) {
+	for(int count = 0; count < 20; count ++) {
+	if(count % 3 == 0 && count % 5 == 0) {
+			System.out.println("fizzbuzz");
+		}
+	else if(count % 3 == 0) {
+		System.out.println("fizz");	
+}
+	else if(count % 5 == 0) {
+		System.out.println("buzz");
+	}
+	else {
+		System.out.println(count);
+	}
+	
+	
+	
+	
+	
+	
+	}	
+}
 
+private static void print(int count) {
+	// TODO Auto-generated method stub
+	
+}
 }
 
